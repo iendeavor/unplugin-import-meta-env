@@ -10,11 +10,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "core-js": "^3.19.3",
-    "cross-env": "^7.0.3",
-    "nuxt": "^2.15.8"
+    "core-js": "3.25.5",
+    "cross-env": "7.0.3",
+    "nuxt": "2.15.8"
   },
   "devDependencies": {
-    "rimraf": "^3.0.2"
+    "rimraf": "3.0.2"
   }
 }

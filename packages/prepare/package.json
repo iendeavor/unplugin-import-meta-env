@@ -22,7 +22,7 @@
     "test": "jest src/__tests__"
   },
   "engines": {
-    "node": ">= 14"
+    "node": "23.7.0"
   },
   "repository": {
     "type": "git",
@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "commander": "13.1.0",
-    "dotenv": "^16.0.0",
+    "dotenv": "16.4.7",
     "glob": "11.0.1",
     "picocolors": "1.1.1",
     "serialize-javascript": "6.0.2"

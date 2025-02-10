@@ -8,16 +8,16 @@
     "preview": "cross-env HELLO=import-meta-env import-meta-env -x .env.example.public && vite preview"
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "remove": "^0.1.5"
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "remove": "0.1.5"
   },
   "devDependencies": {
     "@types/react": "17.0.83",
     "@types/react-dom": "17.0.26",
-    "@vitejs/plugin-react": "^2.1.0",
-    "cross-env": "^7.0.3",
-    "typescript": "^4.8.4",
-    "vite": "^3.1.6"
+    "@vitejs/plugin-react": "2.2.0",
+    "cross-env": "7.0.3",
+    "typescript": "4.9.5",
+    "vite": "3.2.11"
   }
 }

@@ -8,14 +8,14 @@
     "populate": "cross-env HELLO=import-meta-env import-meta-env -x .env.example.public"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.8",
-    "@babel/preset-env": "^7.16.11",
-    "babel-loader": "^8.2.3",
+    "@babel/core": "7.19.3",
+    "@babel/preset-env": "7.19.3",
+    "babel-loader": "8.4.1",
     "concurrently": "7.6.0",
-    "cross-env": "^7.0.3",
-    "html-webpack-plugin": "^5.5.0",
-    "rimraf": "^3.0.2",
-    "webpack": "^5.74.0",
-    "webpack-cli": "^4.9.2"
+    "cross-env": "7.0.3",
+    "html-webpack-plugin": "5.5.0",
+    "rimraf": "3.0.2",
+    "webpack": "5.97.1",
+    "webpack-cli": "4.10.0"
   }
 }

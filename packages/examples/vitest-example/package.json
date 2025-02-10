@@ -9,11 +9,11 @@
     "test": "cross-env HELLO=import-meta-env VITE_PREFIXED_KEY=compile-time vitest"
   },
   "devDependencies": {
-    "@vitejs/plugin-legacy": "^2.2.0",
-    "cross-env": "^7.0.3",
-    "terser": "^5.15.1",
-    "typescript": "^4.8.4",
-    "vite": "^3.1.6",
-    "vitest": "^0.2.5"
+    "@vitejs/plugin-legacy": "2.3.1",
+    "cross-env": "7.0.3",
+    "terser": "5.15.1",
+    "typescript": "4.9.5",
+    "vite": "3.2.11",
+    "vitest": "0.2.8"
   }
 }

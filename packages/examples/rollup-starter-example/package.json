@@ -10,11 +10,11 @@
     "preview": "cross-env HELLO=import-meta-env import-meta-env -x .env.example.public -p output/** && node ../serve.js -d output -p 4173"
   },
   "devDependencies": {
-    "@rollup/plugin-html": "^1.0.1",
-    "@rollup/plugin-node-resolve": "^11.2.1",
+    "@rollup/plugin-html": "1.1.0",
+    "@rollup/plugin-node-resolve": "11.2.1",
     "concurrently": "7.6.0",
-    "cross-env": "^7.0.3",
-    "rimraf": "^3.0.2",
-    "rollup": "^2.68.0"
+    "cross-env": "7.0.3",
+    "rimraf": "3.0.2",
+    "rollup": "2.79.2"
   }
 }

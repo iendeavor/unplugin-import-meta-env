@@ -9,14 +9,14 @@
     "preview": "cross-env HELLO=import-meta-env JSON={\\\"hello\\\":\\\"import-meta-env\\\"} import-meta-env -x .env.example.public && node ../serve.js -d dist -p 4173"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
     "@rspack/cli": "latest",
     "@types/react": "18.3.18",
     "@types/react-dom": "18.3.5",
-    "cross-env": "^7.0.3",
-    "typescript": "^5.0.4"
+    "cross-env": "7.0.3",
+    "typescript": "5.7.3"
   }
 }
