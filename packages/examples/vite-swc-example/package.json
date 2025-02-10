@@ -8,10 +8,10 @@
     "preview": "echo HELLO=import-meta-env > .env && import-meta-env -x .env.example.public && vite preview"
   },
   "devDependencies": {
-    "@swc/core": "^1.10.9",
-    "cross-env": "^7.0.3",
-    "rimraf": "^6.0.1",
-    "unplugin-swc": "^1.5.1",
-    "vite": "^6.0.11"
+    "@swc/core": "1.10.15",
+    "cross-env": "7.0.3",
+    "rimraf": "6.0.1",
+    "unplugin-swc": "1.5.1",
+    "vite": "6.0.11"
   }
 }

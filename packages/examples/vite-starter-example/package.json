@@ -8,8 +8,8 @@
     "preview": "cross-env HELLO=import-meta-env import-meta-env -x .env.example.public && vite preview"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3",
-    "rimraf": "^3.0.2",
-    "vite": "^4.4.9"
+    "cross-env": "7.0.3",
+    "rimraf": "3.0.2",
+    "vite": "4.4.9"
   }
 }

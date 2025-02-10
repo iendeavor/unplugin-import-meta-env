@@ -14,6 +14,6 @@
     "preview": "lerna run --parallel preview"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "4.0.0"
   }
 }

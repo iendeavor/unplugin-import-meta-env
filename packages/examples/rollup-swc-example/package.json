@@ -12,12 +12,12 @@
     "preview": "echo HELLO=import-meta-env\\\\\\nJSON={\\\"hello\\\":\\\"import-meta-env\\\"} > .env && import-meta-env -x .env.example.public && node ../serve.js -d dist -p 4173"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^16.0.0",
-    "@swc/core": "^1.10.9",
-    "concurrently": "^9.1.2",
-    "cross-env": "^7.0.3",
-    "rimraf": "^6.0.1",
-    "rollup": "^4.31.0",
-    "unplugin-swc": "^1.5.1"
+    "@rollup/plugin-node-resolve": "16.0.0",
+    "@swc/core": "1.10.15",
+    "concurrently": "9.1.2",
+    "cross-env": "7.0.3",
+    "rimraf": "6.0.1",
+    "rollup": "4.31.0",
+    "unplugin-swc": "1.5.1"
   }
 }

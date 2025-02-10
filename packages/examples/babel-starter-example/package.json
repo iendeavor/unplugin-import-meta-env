@@ -6,11 +6,11 @@
     "dev": "rimraf dist && cross-env HELLO=import-meta-env JSON={\\\"KEY\\\":\\\"import-meta-env\\\"} ./node_modules/.bin/babel src --out-dir dist"
   },
   "devDependencies": {
-    "@babel/cli": "^7.17.6",
-    "@babel/core": "^7.17.8",
-    "@babel/preset-env": "^7.16.11",
+    "@babel/cli": "7.19.3",
+    "@babel/core": "7.19.3",
+    "@babel/preset-env": "7.19.3",
     "concurrently": "7.6.0",
-    "cross-env": "^7.0.3",
-    "rimraf": "^3.0.2"
+    "cross-env": "7.0.3",
+    "rimraf": "3.0.2"
   }
 }

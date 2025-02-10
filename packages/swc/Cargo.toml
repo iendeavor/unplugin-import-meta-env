@@ -12,17 +12,17 @@ crate-type = ["cdylib", "rlib"]
 lto = true
 
 [dependencies]
-rust-ini = "0.21.0"
-serde = "1.0.189"
-serde_json = "1.0.107"
-string_cache = "0.8.7"
-swc_core = { version = "13.0.0", features = [
+rust-ini = "=0.21.0"
+serde = "=1.0.189"
+serde_json = "=1.0.107"
+string_cache = "=0.8.7"
+swc_core = { version = "=13.0.0", features = [
   "ecma_plugin_transform",
   "ecma_ast_serde",
 ] }
 
 [dev-dependencies]
-tempfile = "3.8.0"
+tempfile = "=3.8.0"
 
 # .cargo/config defines few alias to build plugin.
 # cargo build-wasi generates wasm-wasi32 binary

@@ -21,7 +21,7 @@
     "release": "standard-version --skip.tag -t typescript --preset=conventionalcommits --releaseCommitMessageFormat 'chore(release): @import-meta-env/typescript@{{currentTag}}' --path ."
   },
   "engines": {
-    "node": ">= 14"
+    "node": "23.7.0"
   },
   "repository": {
     "type": "git",
@@ -37,8 +37,8 @@
     "typescript": "5.7.3"
   },
   "dependencies": {
-    "commander": "^13.0.0",
-    "dotenv": "^16.0.0",
-    "picocolors": "^1.0.0"
+    "commander": "13.1.0",
+    "dotenv": "16.4.7",
+    "picocolors": "1.1.1"
   }
 }

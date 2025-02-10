@@ -8,10 +8,10 @@
     "preview": "cross-env HELLO=import-meta-env ./node_modules/.bin/import-meta-env -x .env.example.public && cross-env PORT=4173 nuxi preview"
   },
   "dependencies": {
-    "cross-env": "^7.0.3",
-    "nuxt-edge": "^2.16.0-27720022.54e852f"
+    "cross-env": "7.0.3",
+    "nuxt-edge": "2.16.0-27720022.54e852f"
   },
   "devDependencies": {
-    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27747000.69db93e"
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@3.0.0-rc.4-28417796.1489adc"
   }
 }

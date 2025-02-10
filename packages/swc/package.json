@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/runtime-env/import-meta-env/tree/main/packages/swc#readme",
   "peerDependencies": {
-    "@import-meta-env/cli": "^0.7.0",
-    "@swc/core": "^1.10.0"
+    "@import-meta-env/cli": "0.7.3",
+    "@swc/core": "1.10.15"
   },
   "peerDependenciesMeta": {
     "@import-meta-env/cli": {

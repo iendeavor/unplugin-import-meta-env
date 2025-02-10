@@ -10,17 +10,17 @@
     "clean": "farm clean"
   },
   "dependencies": {
-    "react": "18",
-    "react-dom": "18"
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@farmfe/cli": "^1.0.2",
-    "@farmfe/core": "^1.3.0",
-    "@farmfe/plugin-react": "^1.2.0",
+    "@farmfe/cli": "1.0.4",
+    "@farmfe/core": "1.6.6",
+    "@farmfe/plugin-react": "1.2.6",
     "@types/react": "18.3.18",
     "@types/react-dom": "18.3.5",
-    "core-js": "^3.36.1",
-    "cross-env": "^7.0.3",
-    "react-refresh": "^0.16.0"
+    "core-js": "3.37.1",
+    "cross-env": "7.0.3",
+    "react-refresh": "0.16.0"
   }
 }

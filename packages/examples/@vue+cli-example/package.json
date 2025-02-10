@@ -8,15 +8,15 @@
     "preview": "cross-env HELLO=import-meta-env ./node_modules/.bin/import-meta-env -x .env.example.public && node ../serve.js -d dist -p 4173"
   },
   "dependencies": {
-    "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "core-js": "3.39.0",
+    "vue": "3.5.13"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "cross-env": "^7.0.3",
-    "rimraf": "^3.0.2"
+    "@babel/core": "7.26.0",
+    "@vue/cli-plugin-babel": "5.0.8",
+    "@vue/cli-service": "5.0.8",
+    "cross-env": "7.0.3",
+    "rimraf": "3.0.2"
   },
   "browserslist": [
     "> 1%",

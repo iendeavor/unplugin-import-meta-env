@@ -12,12 +12,12 @@
     "preview": "cross-env HELLO=import-meta-env import-meta-env -x .env.example.public && node ../serve.js -d dist -p 4173"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@rollup/plugin-babel": "^5.3.1",
-    "@rollup/plugin-node-resolve": "^11.2.1",
+    "@babel/core": "7.19.3",
+    "@rollup/plugin-babel": "5.3.1",
+    "@rollup/plugin-node-resolve": "11.2.1",
     "concurrently": "7.6.0",
-    "cross-env": "^7.0.3",
-    "rimraf": "^3.0.2",
-    "rollup": "^2.68.0"
+    "cross-env": "7.0.3",
+    "rimraf": "3.0.2",
+    "rollup": "2.79.2"
   }
 }

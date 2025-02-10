@@ -9,9 +9,9 @@
     "start": "cross-env HELLO=import-meta-env import-meta-env -x .env.example.public && next start --port 4173"
   },
   "dependencies": {
-    "cross-env": "^7.0.3",
-    "next": "^15.0.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "cross-env": "7.0.3",
+    "next": "15.1.6",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   }
 }
