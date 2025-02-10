@@ -1,0 +1,1 @@
+import{_ as a,c as i,o as n,ae as p}from"./chunks/framework.AELpvxz7.js";const c=JSON.parse('{"title":"API","description":"","frontmatter":{},"headers":[],"relativePath":"api.md","filePath":"api.md"}'),e={name:"api.md"};function t(l,s,h,k,r,o){return n(),i("div",null,s[0]||(s[0]=[p("",19)]))}const g=a(e,[["render",t]]);export{c as __pageData,g as default};
